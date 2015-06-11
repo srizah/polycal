@@ -1,0 +1,23 @@
+{
+  "name": "polycal",
+  "version": "0.1.0",
+  "description": "A tiny javascript library for building custom calendars.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camwiegert/polycal"
+  },
+  "homepage": "https://github.com/camwiegert/polycal",
+  "port": 4567,
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "yargs": "^3.2.1"
+  }
+}
