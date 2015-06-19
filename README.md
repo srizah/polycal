@@ -23,7 +23,7 @@ The first thing you'll need to do in order to use Polycal is create an instance.
 ```javascript
 var calendar = new Polycal();
 ```
-Each instance has one enumerable key, which is the model. The model is an object array.
+Each instance has one enumerable key, which is the model. The model is an object array. By default, Polycal will model 60 months beginning with current month.
 ```javascript
 Object.keys(calendar); // ["model"]
 ```
